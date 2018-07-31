@@ -24,6 +24,27 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
+
+
+	<script>
+		if ('serviceWorker' in navigator) {
+		  window.addEventListener('load', function() {
+		    navigator.serviceWorker.register('/sw.js').then(function(registration) {
+		      // Registration was successful
+		      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+		    }, function(err) {
+		      // registration failed :(
+		      console.log('ServiceWorker registration failed: ', err);
+		    });
+		  });
+		}
+	</script>
+
+
+
+
+
+	
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js">
 	</script>
 	<link href="css/media.css" rel="stylesheet">
@@ -35,19 +56,6 @@
   crossorigin="anonymous"></script>
 	<title>AirFlow</title>
 	<meta charset="UTF-8">
-	<script>
-		if ('serviceWorker' in navigator) {
-		 window.addEventListener('load', function() {  
-		  navigator.serviceWorker.register('/sw.js').then(
-		    function(registration) {
-		      console.log('ServiceWorker registration successful with scope: ', registration.scope); },
-		    function(err) {
-		      // registration failed :(
-		      console.log('ServiceWorker registration failed: ', err);
-		    });
-		  });
-		}
-	</script>
 </head>
 <body>
 	<nav class="top-nav top-nav--mob">

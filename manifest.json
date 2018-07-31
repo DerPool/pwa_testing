@@ -3,7 +3,7 @@
   "short_name": "AirFlow",
   "description": "AirFlow помогает вернуть деньги",
   "lang": "ru-RU",
-  "start_url": "/index.html",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#4ebaf2",
   "background_color": "#4ebaf2",
