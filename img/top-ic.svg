@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="icon_browse-upload" viewBox="0 0 96 96">
+    <defs>
+        <style>
+            .cls-1{fill:#193b5f}
+        </style>
+    </defs>
+    <path id="Path_11" d="M90 0H6a6 6 0 0 0-6 6v84a6 6 0 0 0 6 6h45v-3H9a6 6 0 0 1-6-6V27h90v24h3V6a6 6 0 0 0-6-6zm3 24H3V9a6 6 0 0 1 6-6h78a6 6 0 0 1 6 6z" class="cls-1" data-name="Path 11"/>
+    <path id="Path_12" d="M61.5 3h-45a4.5 4.5 0 0 0 0 9h45a4.5 4.5 0 0 0 0-9zM63 7.6A1.4 1.4 0 0 1 61.6 9H16.4A1.4 1.4 0 0 1 15 7.6v-.2A1.4 1.4 0 0 1 16.4 6h45.2A1.4 1.4 0 0 1 63 7.4z" class="cls-1" data-name="Path 12" transform="translate(24 6)"/>
+    <path id="Path_13" d="M24.5 3h-18a4.5 4.5 0 1 0 0 9h18a4.5 4.5 0 1 0 0-9zM14 9H6.4A1.4 1.4 0 0 1 5 7.6v-.2A1.4 1.4 0 0 1 6.4 6H14zm12-1.4A1.4 1.4 0 0 1 24.6 9H17V6h7.6A1.4 1.4 0 0 1 26 7.4z" class="cls-1" data-name="Path 13" transform="translate(4 6)"/>
+    <path id="Path_14" d="M36.564 16.438a1.459 1.459 0 0 0-.522-.33.909.909 0 0 0-.1-.018A1.444 1.444 0 0 0 35.5 16c-.027 0-.048.015-.075.015a1.476 1.476 0 0 0-1.137.426l-14.85 14.85a1.5 1.5 0 1 0 2.121 2.121L34 20.971V62.5a1.5 1.5 0 0 0 3 0V21.121l12.291 12.288a1.5 1.5 0 0 0 2.121-2.121z" class="cls-1" data-name="Path 14" transform="translate(37.998 32)"/>
+</svg>

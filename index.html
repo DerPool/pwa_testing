@@ -1,0 +1,712 @@
+<!DOCTYPE html >
+<html lang="ru">
+<head>
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<meta content="IE=Edge" http-equiv="X-UA-Compatible">
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet" type="text/css">
+	<link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+	<link rel="manifest" href="manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js">
+	</script>
+	<link href="css/media.css" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" type="text/javascript">
+	</script>
+	<script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
+	<title>AirFlow</title>
+	<meta charset="UTF-8">
+	<script>
+		if (‘serviceWorker’ in navigator) {
+		 window.addEventListener(‘load’, function() {  
+		  navigator.serviceWorker.register(‘/sw.js’).then(
+		    function(registration) {
+		      // Registration was successful
+		      console.log(‘ServiceWorker registration successful with scope: ‘, registration.scope); },
+		    function(err) {
+		      // registration failed :(
+		      console.log(‘ServiceWorker registration failed: ‘, err);
+		    });
+		  });
+		}
+	</script>
+</head>
+<body>
+	<nav class="top-nav top-nav--mob">
+		<div class="container">
+			<div class="row top-nav__navwrap">
+				<div class="col-md-3  top-nav__logo-block">
+					<div class="logo-block__logo-wrap"><img alt="" src="img/logo.svg"></div>
+				</div>
+				<div class="col-md-7 top-nav__menu">
+					<ul class="menu__menu-list">
+						<li class="menu-list__menu-item">
+							<a class="menu-item__active" href="#top-block">главная</a>
+						</li>
+						<li class="menu-list__menu-item">
+							<a href="#">о сервисе</a>
+						</li>
+						<li class="menu-list__menu-item">
+							<a href="#">помощь (faq)</a>
+						</li>
+						<li class="menu-list__menu-item">
+							<a href="#map">контакты</a>
+						</li>
+					</ul>
+
+					<div class="menu__toggler">
+						<i class="menu__burger"></i>
+					</div>
+					<div class="profile__profile-image profile__profile-image--mob">
+						<i class="profile-image__image fas fa-user-circle"></i>
+					</div>
+
+				</div>
+				<div class="col-md-2 hidden-sm-down top-nav__profile">
+					<div class="profile__profile-image">
+						<i class="profile-image__image fas fa-user-circle"></i>
+					</div>
+				</div>
+				<div class="top-nav__menu--mob">
+						<ul class="menu__menu-list--mob">
+						<li class="menu-list__menu-item--mob">
+							<a class="menu-item" href="#top-block">главная</a>
+						</li>
+						<li class="menu-list__menu-item--mob">
+							<a href="#">о сервисе</a>
+						</li>
+						<li class="menu-list__menu-item--mob">
+							<a href="#">помощь (faq)</a>
+						</li>
+						<li class="menu-list__menu-item--mob">
+							<a href="#">контакты</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<section class="topform">
+		<div class="questions"><img alt="" src="img/questions.svg"></div>
+		<div class='container tf__wrapper'>
+			<div class="row">
+				<div class="col topform__heading">
+					<h2>Петр Васильевич, ниже информация о рейсе F0575 (SVO - MSQ)</h2>
+				</div>
+			</div>
+			<div class="row topform__form flex-column-reverse flex-md-row">
+				<div class="col-md-8 topform__left">
+					<div class="left__companylogo"><img alt="" src="img/s7.svg"></div>
+					<div class="row">
+						<div class="left__data left__number left__data--up">
+							<span>номер рейса</span>
+							<h2>f0575</h2>
+						</div>
+						<div class="left__data left__date left__data--up">
+							<span>дата вылета</span>
+							<h2>02.05.17</h2>
+						</div>
+						<div class="left__data left__time left__data--up">
+							<span>время вылета</span>
+							<h2>12:15</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="left__data left__aerofrom">
+							<span>АЭРОПОРТ (ВЫЛЕТ)</span>
+							<h2>Москва (SVO)</h2>
+						</div>
+						<div class="left__data left__aerofrom left__data--ic">
+							<i class="arrow__ic fas fa-arrow-right"></i>
+						</div>
+						<div class="left__data left__aeroto">
+							<span>АЭРОПОРТ (прибытие)</span>
+							<h2>Минск (MSQ)</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="left__data left__reason">
+							<span>ПРИЧИНА КОМПЕНСАЦИИ</span>
+							<h2>Задержка рейса</h2>
+						</div>
+						<div class="left__data left__additional">
+							<span>ДОПОЛНИТЕЛЬНО</span>
+							<h2>Здесь могут быть еще данные</h2>
+						</div>
+					</div>
+					<div class="left__actions">
+						<div class="row">
+							<div class="col">
+								<input id="legacy" name="legacy" style="display: none" type="checkbox"> <label for="legacy"><span class="legacy__box"></span> <span class="legacy__title">Я согласен на обработку персональных данных и с <a href="#">условиями предоставления услуг</a></span></label>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4 block__email--top">
+								<span id="surname_t">email</span> <input id="email_top" name="email_t" type="text">
+							</div>
+							<div class="col-md-4 block__pass--top">
+								<span id="pass_t">пароль</span> <input id="pass_top" name="pass_t" type="password">
+							</div>
+							<div class="col-md-4 block__button--top">
+								<a class="left__button" href="#">продолжить</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 topform__right">
+					<ul class="steps">
+						<li class="steps__item steps__item--done"><span class="right__step right__step--done fa"></span> <span class="item__label item__label--done">Письмо с информацией о рейсе</span></li>
+						<li class="steps__item"><span class="right__step right__step--active"><span><i class="fas fa-check-circle"></i></span></span> <span class="item__label item__label--active">Отправка запроса</span></li>
+						<li class="steps__item"><span class="right__step"><span><i class="fas fa-check-circle"></i></span></span> <span class="item__label">Рассмотрение заявки</span></li>
+						<li class="steps__item"><span class="right__step"><span><i class="fas fa-check-circle"></i></span></span> <span class="item__label">Выплата компенсации</span></li>
+						<li class="steps__item steps__item--last"><span class="right__step"><span><i class="fas fa-check-circle"></i></span></span> <span class="item__label">Готово!</span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<nav class="top-nav">
+		<div class="container">
+			<div class="row top-nav__navwrap">
+				<div class="col-md-3  top-nav__logo-block">
+					<div class="logo-block__logo-wrap"><img alt="" src="img/logo.svg"></div>
+				</div>
+				<div class="col-md-7 top-nav__menu">
+					<ul class="menu__menu-list">
+						<li class="menu-list__menu-item">
+							<a class="menu-item__active" href="#top-block">главная</a>
+						</li>
+						<li class="menu-list__menu-item">
+							<a href="#">о сервисе</a>
+						</li>
+						<li class="menu-list__menu-item">
+							<a href="#">помощь (faq)</a>
+						</li>
+						<li class="menu-list__menu-item">
+							<a href="#map">контакты</a>
+						</li>
+					</ul>
+
+					<div class="menu__toggler">
+						<i class="menu__burger"></i>
+					</div>
+					<div class="profile__profile-image profile__profile-image--mob">
+						<i class="profile-image__image fas fa-user-circle"></i>
+					</div>
+				</div>
+				<div class="col-md-2 hidden-sm-down top-nav__profile">
+					<div class="profile__profile-image">
+						<i class="profile-image__image fas fa-user-circle"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<section class="top-block" id="top-block">
+		<div class="bgrnd"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 top-block__text">
+					<h2>Мягкой посадки</h2>
+					<p>Равным образом сложившаяся структура организации представляет собой интересный эксперимент проверки модели развития.</p>
+					<p>Разнообразный и богатый опыт начало повседневной работы по формированию позиции обеспечивает широкому кругу (специалистов) участие в формировании существенных финансовых и административных условий.</p><a class="text__button" href="#register">проверить рейсы</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 top-block__cards">
+					<div class="cards__item">
+						<div class="item__top">
+							<div><img alt="icon" src="img/top-ic.svg"></div>
+							<p>отмена рейса</p>
+						</div>
+						<div class="item__bot">
+							<h2>23 000</h2>
+							<p>Равным образом сложившаяся структура организации проверки модели развития.</p>
+						</div>
+					</div>
+					<div class="cards__item">
+						<div class="item__top">
+							<div><img alt="icon" src="img/top-ic.svg"></div>
+							<p>ЗАДЕРЖКА ВЫЛЕТА</p>
+						</div>
+						<div class="item__bot">
+							<h2>23 000</h2>
+							<p>Равным образом сложившаяся структура организации проверки модели развития.</p>
+						</div>
+					</div>
+					<div class="cards__item">
+						<div class="item__top">
+							<div><img alt="icon" src="img/top-ic.svg"></div>
+							<p>ОПОЗДАНИЕ НА ПЕРЕСАДКЕ</p>
+						</div>
+						<div class="item__bot">
+							<h2>23 000</h2>
+							<p>Равным образом сложившаяся структура организации проверки модели развития.</p>
+						</div>
+					</div>
+					<div class="cards__item">
+						<div class="item__top">
+							<div><img alt="icon" src="img/top-ic.svg"></div>
+							<p>ОТКАЗ В ПОСАДКЕ</p>
+						</div>
+						<div class="item__bot">
+							<h2>23 000</h2>
+							<p>Равным образом сложившаяся структура организации проверки модели развития.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 top-block__blag">
+					<h2>Пассажиры благодарны</h2>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="owl-carousel owl-theme owl-loaded">
+					<div class="owl-stage-outer">
+						<div class="owl-stage">
+							<div class="owl-item">
+								<div class="owl-item__upperb">
+									<div class="img-wrap"><img src="https://placehold.it/86x86"></div><br>
+									<span>Марина П.<br>
+									Санкт-Петербург - Лондон</span>
+								</div>
+								<p>Разнообразный и богатый опыт начало повседневной работы по формированию позиции обеспечивает широкому кругу (специалистов) участие в формировании существенных финансовых и административных условий</p>
+							</div>
+							<div class="owl-item item--active">
+								<div class="owl-item__upperb">
+									<div class="img-wrap"><img src="https://placehold.it/86x86"></div><br>
+									<span>Марина П.<br>
+									Санкт-Петербург - Лондон</span>
+								</div>
+								<p>Разнообразный и богатый опыт начало повседневной работы по формированию позиции обеспечивает широкому кругу (специалистов) участие в формировании существенных финансовых и административных условий</p>
+							</div>
+							<div class="owl-item">
+								<div class="owl-item__upperb">
+									<div class="img-wrap"><img src="https://placehold.it/86x86"></div><br>
+									<span>Марина П.<br>
+									Санкт-Петербург - Лондон</span>
+								</div>
+								<p>Разнообразный и богатый опыт начало повседневной работы по формированию позиции обеспечивает широкому кругу (специалистов) участие в формировании существенных финансовых и административных условий</p>
+							</div>
+							<div class="owl-item">
+								<div class="owl-item__upperb">
+									<div class="img-wrap"><img src="https://placehold.it/86x86"></div><br>
+									<span>Марина П.<br>
+									Санкт-Петербург - Лондон</span>
+								</div>
+								<p>Разнообразный и богатый опыт начало повседневной работы по формированию позиции обеспечивает широкому кругу (специалистов) участие в формировании существенных финансовых и административных условий</p>
+							</div>
+							<div class="owl-item">
+								<div class="owl-item__upperb">
+									<div class="img-wrap"><img src="https://placehold.it/86x86"></div><br>
+									<span>Марина П.<br>
+									Санкт-Петербург - Лондон</span>
+								</div>
+								<p>Разнообразный и богатый опыт начало повседневной работы по формированию позиции обеспечивает широкому кругу (специалистов) участие в формировании существенных финансовых и административных условий</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="formsection">
+		<div class="container">
+			<div class="row form__heading">
+				<div class='col heading__title'>
+					<h2>Калькулятор компенсации</h2>
+				</div>
+			</div>
+			<div class="row form-wrap">
+				<div class="col-md-9 col-md-push-3 form__left">
+					<div class="f_g">
+						<div class="left__input-wraper inp_out">
+							<select id="out_select" name="out">
+								<option value="">
+									Москва (SVO)
+								</option>
+								<option value="">
+									Москва (VKO)
+								</option>
+								<option value="">
+									Москва (DME)
+								</option>
+							</select> <label for="out">Аэропорт (вылет)</label>
+						</div>
+						<div class="left__arrow">
+							<i class="arrow__ic fas fa-arrow-right"></i>
+						</div>
+						<div class="left__input-wraper inp_in">
+							<select id="in_select" name="in">
+								<option value="">
+									Москва (SVO)
+								</option>
+								<option value="">
+									Москва (VKO)
+								</option>
+								<option value="">
+									Москва (DME)
+								</option>
+							</select> 
+							<label for="in">Аэропорт (прибытие)</label>
+						</div>
+					</div><br>
+					<div class="left__input-wraper--long inp_reason">
+						<select id="reason_select" name="reason">
+								<option value="">
+									Задержка рейса
+								</option>
+							</select> <label for="reason">Причина компенсации</label>
+					</div>
+					<div class="left__input-wraper--long inp_company">
+						<input name="in" type="text" value="Аэрофлот"> <label for="in">Авиакомпания</label>
+					</div>
+				</div>
+				<div class="col-md-3 col-md-pull-9 form__right">
+					<div class='right__block'>
+						<span>ПРИМЕРНЫЙ СРОК ИСПОЛНЕНИЯ</span>
+						<h2>14 дней</h2>
+					</div>
+					<div class='right__block'>
+						<span>ПРИМЕРНАЯ СУММА КОМПЕНСАЦИИ</span>
+						<h2>6 800 ₽</h2>
+					</div>
+					<div class='right__block right__block--cust'>
+						<span>НА ЧТО МОЖНО ПОТРАТИТЬ?</span>
+						<h2>Ящик <a href="#">Mondoro Asti</a></h2>
+					</div>
+				</div>
+			</div>
+			<div class="row terms">
+				<div class="terms__wrap">
+					<p>Все расчеты указаны для примера. Точные значения сумм компенсаций будут доступны по каждому рейсу в личном кабинете пользователя.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="stats">
+		<div id="line"></div>
+		<div class="container">
+			<div class="row stats__heading">
+				<div class="col">
+					<h2>25 лет на рынке юридических услуг</h2>
+				</div>
+			</div>
+			<div class="row stats__board">
+				<div class="col board__item">
+					<h2>&nbsp;580&nbsp;</h2>
+					<p>обработанных заявок</p>
+				</div>
+				<div class="col board__item">
+					<h2>1,5 <span>млн</span></h2>
+					<p>возвращено средств</p>
+				</div>
+				<div class="col board__item">
+					<h2>360</h2>
+					<p>довольных обращением пользователей</p>
+				</div>
+			</div>
+			<div class="row adv__heading">
+				<div class="col">
+					<h2>Потратьте 33 минуты. Это того стоит</h2>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="adv">
+		<div class="container">
+			<div class="mob__wrapper">
+				<div class="row adv__wrapper--mob">
+					<div class="col">
+						<div class="row mob__item">
+							<div class="mob__img"><img src="img/zapros-ic.svg" alt=""></div>
+							<div class="mob__title"><span>Отправьте запрос<br> это займет <b>3 минуты</b></span></div>
+							<i class="fas fa-arrow-right"></i>
+						</div>
+						<div class="row mob__item">
+							<div class="mob__img"><img src="img/rassmotr-ic.svg" alt=""></div>
+							<div class="mob__title"><span>Мы рассмотрим заявку<br> обычно это <b>1 неделя</b></span></div>
+							<i class="fas fa-arrow-right"></i>
+						</div>
+						<div class="row mob__item">
+							<div class="mob__img"><img src="img/load-ic.svg" alt=""></div>
+							<div class="mob__title"><span>Загрузите документы<br> это займет <b>30 минут</b></span></div>
+							<i class="fas fa-arrow-right"></i>
+						</div>
+						<div class="row mob__item">
+							<div class="mob__img"><img src="img/wait-ic.svg" alt=""></div>
+							<div class="mob__title"><span>Решение авиакомпании<br> обычно это <b>1 неделя</b></span></div>
+							<i class="fas fa-arrow-right"></i>
+						</div>
+						<div class="row mob__item">
+							<div class="mob__img"><img src="img/money-ic.svg" alt=""></div>
+							<div class="mob__title mob__title--last"><span>Получите компенсацию</span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row adv__wrapper">
+				<div class="col">
+					<ul class="adv__list">
+						<li class="adv__item adv__item--first"><img height="68px" src="img/zapros-ic.svg"> <span class="item__title">Отправьте запрос<br>
+						это займет <b>3 минуты</b></span></li>
+						<li class="adv__item adv__item--ic"><i class="fas fa-arrow-right"></i></li>
+						<li class="adv__item adv__item--second"><img height="68px" src="img/rassmotr-ic.svg"> <span class="item__title">Мы рассмотрим заявку<br>
+						обычно это <b>1 неделя</b></span></li>
+						<li class="adv__item adv__item--ic"><i class="fas fa-arrow-right"></i></li>
+						<li class="adv__item adv__item--third"><img height="68px" src="img/load-ic.svg"> <span class="item__title">Загрузите документы<br>
+						это займет <b>30 минут</b></span></li>
+						<li class="adv__item adv__item--ic"><i class="fas fa-arrow-right"></i></li>
+						<li class="adv__item adv__item--fourth"><img height="68px" src="img/wait-ic.svg"> <span class="item__title">Решение авиакомпании<br>
+						обычно это <b>1 неделя</b></span></li>
+						<li class="adv__item adv__item--ic"><i class="fas fa-arrow-right"></i></li>
+						<li class="adv__item adv__item--fifth"><img height="68px" src="img/money-ic.svg"> <span class="item__title item__title--last">Получите компенсацию</span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="info">
+		<div class="container">
+			<div class="row info__heading">
+				<div class="col info__header">
+					<h2>На защите ваших прав</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 info__left">
+					<p>Под действие Монреальской конвенции подпадают международные рейсы между странами, которые её ратифицировали. Конвенцию подписали и признают более 120 государств по всему миру, включая США и страны Евросоюза.</p>
+					<p>Участниками конвенции являются все ведущие рынки авиаперевозок за рядом важных исключений (Шри-Ланка, Вьетнам и т.д.) Список участников периодически изменяется, когда конвенцию ратифицирует новое государство: эти изменения не всегда находят моментальное отражение на странице, на которую ведёт вышеуказанная ссылка.</p>
+				</div>
+				<div class="col-md-6 info__right">
+					<p>«Скорее всего, у вас попросят документы, подтверждающие срыв рейса и дополнительные расходы, поэтому сохраняйте чеки.»</p>
+				</div>
+			</div>
+			<div class="row ready__heading">
+				<div class="col ready__header" id="register">
+					<h2>Готовы?<br> Тогда добро пожаловать</h2>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="register" >
+		<div class="container">		
+		<div class="container__form">
+			<div class="row reg__label">
+				<div class="col label__heading">
+					<h3>Регистрация</h3>
+				</div>
+			</div>
+			<div class="row form__row">
+				<div class="col-md-6 block__name">
+					<span id="name">имя</span> <input id="name_inp" name="name" type="text">
+				</div>
+				<div class="col-md-6 block__surname">
+					<span id="surname">фамилия</span> <input id="surname_inp" name="surname" type="text">
+				</div>
+			</div>
+			<div class="row form__row">
+				<div class="col-md-6 block__email">
+					<span id="email">email</span> <input id="email_inp" name="email" type="email">
+				</div>
+				<div class="col-md-6 block__phone">
+					<span id="phone">телефон</span> <input id="phone_inp" name="phone" type="phone">
+				</div>
+			</div>
+			<div class="row form__row passwords">
+				<div class="col-md-6 block__pass">
+					<span id="phone">пароль</span> <input id="pass_inp" name="pass" placeholder="Не заполнено" type="password">
+				</div>
+				<div class="col-md-6 block_passconf">
+					<span id="phone">пароль еще раз</span> <input id="passconfirm_inp" name="passconfirm" placeholder="Не заполнено" type="password">
+				</div>
+			</div>
+			<div class="row form__row form__row--buttons">
+				<div class="col-md-12">
+					<a class="reg__btn" href="#">регистрация</a> <a class="haveacc__btn" href="#">УЖЕ ЕСТЬ АККАУНТ</a>
+				</div>
+			</div>
+		</div>
+		</div>
+
+	</section>
+	
+	<section id="ext" class="ext">
+
+		<div class="container">
+			<div class="row ">
+				<div class="col ext__heading">
+					<h2>Всегда под защитой. Установите расширение</h2>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid ext__container">
+			<div class="row ext__content">
+				<div class="col col-lg-6 ext__left">
+<!-- 					&nbsp;
+					<div class="ext__img">
+						<img src="img/extention.png" alt="">
+					</div> -->
+				</div>
+				<div class="col col-lg-2 col-sm-hidden"></div>
+				<div class="col col-lg-4 ext__right">
+					<h2>Сработает автоматически</h2>
+					<p>Равным образом сложившаяся структура организации представляет собой интересный эксперимент проверки модели развития.</p>
+					<h2>Личный кабинет</h2>
+					<p>Равным образом сложившаяся структура организации представляет собой интересный эксперимент проверки модели развития.</p>
+					<h2 class="browser__heading">Скачайте для браузеров</h2>
+					<div class="browser">
+						<a href="#" class="browser__item">
+							<div class="browser__img">
+								<img src="img/chrome.svg" alt="">
+							</div>
+							<p>
+								Chrome
+							</p>
+						</a>
+						<a href="#" class="browser__item">
+							<div class="browser__img">
+								<img src="img/firefox.svg" alt="">
+							</div>
+							<p>
+								Firefox
+							</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="faq" class="faq">
+		<div class="container">
+			<div class="row">
+				<div class="col faq__heading">
+					<h2>Остались вопросы? FAQ</h2>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid faq__wrap">
+			<div class="container">
+				<div class="row faq__content">
+					<div class="col col-lg-6 faq__left">
+						<div class="faq__select">
+							<select id="faq_select" name="faq">
+									<option value="">
+										Сколько стоят услуги сервиса?
+									</option>
+									<option value="">
+										Сколько весят услуги сервиса?				
+									</option>
+								</select> 
+								<label for="faq">ВЫБЕРИТЕ ВОПРОС</label>
+						</div>
+					</div>
+					<div class="col col-lg-6 faq__right">
+						<div class="answer answer-1">
+							<span>отвечаем</span>
+							<p>Услуги сервиса AeroFlow предоставляются бесплатно, за исключением небольшой комиссии в случае компенсации.</p>
+						</div>
+						<div class="answer answer-2" style="display: none;">
+							<span>отвечаем</span>
+							<p>Услуги сервиса предоставляются бесплатно, за исключением небольшой комиссии в случае компенсации.</p>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</section>
+
+
+
+	<section id="map">
+	<div class="container">
+		<div class="row map__heading">
+			<div class="col">
+				<h2>Мы рядом</h2>
+			</div>
+		</div>
+	</div>
+  	<div class="container-fluid map__canvas" id="map_canvas">
+		<div class="adress">
+			<h4>Контакты</h4>
+			<p>
+				Большой Строченовский пер., 22/25, Москва, 105120
+			</p>
+			<p>
+				8 (800) 555-35-35
+			</p>
+			<a href="info@amulex.ru" class="link">info@aeroflow.ru</a>
+			<br>
+			<a href="https://amulex.ru" class="link">aeroflow.ru</a>
+		<!--	<a href="#" class='prevb2'>НАПИСАТЬ</a> -->
+			<div class="map__logo">
+				<img src="img/logo--blue.svg" alt="">
+			</div>
+		</div>
+
+		<div class="disabler"></div>
+		<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A0c80d4e1c5bcc30d19e76d3348cd359dc01f8f94e710e159f58eef92b181faaf&amp;source=constructor" height="690" frameborder="0" class="mapa"></iframe>
+	<!--<iframe src="https://yandex.ru/map-widget/v1/-/CBqCYGUwsC" width="100%" height="690px" frameborder="0" class="mapa"></iframe>-->
+ </div>
+</section>
+
+
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row footer__content">
+				<div class="col-md-7 footer__menu">
+					<ul class="f__menu">
+						<li class="f__item">
+							<a href="#top-block">главная</a>
+						</li>
+						<li class="f__item">
+							<a href="#">о сервисе</a>
+						</li>
+						<li class="f__item">
+							<a href="#">помощь (faq)</a>
+						</li>
+						<li class="f__item">
+							<a href="#map">контакты</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-5 footer__company">
+					<a href="#">AEROFLOW.RU | Все права защищены</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js">
+	</script> 
+	<script src="js/sc.js">
+	</script> 
+	<script src="line/lottie.js">
+	</script> 
+	<script src="line/script.js">
+	</script>
+</body>
+</html>

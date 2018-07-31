@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 417 361">
+    <defs>
+        <style>
+            .cls-1,.cls-14,.cls-16,.cls-8{fill:#fff}.cls-2{fill:#f7f7f7}.cls-3{fill:#4db9f1}.cls-11,.cls-4{fill:#959595}.cls-4{font-size:12px}.cls-4,.cls-5,.cls-8,.cls-9{font-family:SourceSansPro-Regular,Source Sans Pro}.cls-14,.cls-16,.cls-4{letter-spacing:.1em}.cls-5,.cls-7{fill:#3886be}.cls-5{font-size:15px;text-decoration:underline}.cls-6{fill:#b9b9b9}.cls-8{font-size:16px}.cls-9{fill:#386496;font-size:18px}.cls-10,.cls-12{fill:none}.cls-12{stroke:#b1c9d9}.cls-13{fill:#b1c9d9}.cls-14{font-size:9px}.cls-14,.cls-16{font-family:SourceSansPro-Bold,Source Sans Pro;font-weight:700}.cls-15{fill:#ff8181}.cls-16{font-size:10px}.cls-17{filter:url(#Rectangle_268)}
+        </style>
+        <filter id="Rectangle_268" width="417" height="361" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="4"/>
+            <feGaussianBlur result="blur" stdDeviation="9.5"/>
+            <feFlood flood-opacity=".251"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g id="Group_328" data-name="Group 328" transform="translate(-231.5 -4452.5)">
+        <g class="cls-17" transform="translate(231.5 4452.5)">
+            <rect id="Rectangle_268-2" width="360" height="304" class="cls-1" data-name="Rectangle 268" rx="3" transform="translate(28.5 24.5)"/>
+        </g>
+        <path id="Rectangle_269" d="M0 0h360v47H0z" class="cls-2" data-name="Rectangle 269" transform="translate(260 4734)"/>
+        <path id="Rectangle_270" d="M3 0h354a3 3 0 0 1 3 3v69H0V3a3 3 0 0 1 3-3z" class="cls-3" data-name="Rectangle 270" transform="translate(260 4477)"/>
+        <path id="Path_174" d="M24.956 3.454C17.83 6.928 10.818 10.353 3.729 13.8c1.561.995 3.022 1.926 4.495 2.845.781.5 1.032 1.2.655 1.826a1.487 1.487 0 0 1-2.14.428C4.749 17.6 2.76 16.27.746 15a1.206 1.206 0 0 1 .113-2.266C9.181 8.616 17.478 4.436 25.787.281A1.335 1.335 0 0 1 27.26.218a1.312 1.312 0 0 1 .39 1.473Q26.31 8.49 24.944 15.3q-1.134 5.666-2.254 11.332a1.223 1.223 0 0 1-2 .806q-2.757-1.832-5.489-3.664c-.189-.126-.378-.239-.617-.39-.932.944-1.851 1.851-2.77 2.782-.4.4-.844.755-1.435.516a1.375 1.375 0 0 1-.806-1.435c.013-1.788-.013-3.563.025-5.351a1.643 1.643 0 0 1 .378-.944Q14.6 13.928 19.253 8.93a1.241 1.241 0 0 1 1.889-.189 1.264 1.264 0 0 1-.076 1.889c-2.858 3.1-5.716 6.207-8.6 9.279a1.965 1.965 0 0 0-.667 1.712 8.988 8.988 0 0 1 .013 1.045c.567-.478 1.032-.881 1.5-1.272 1.02-.881 1.221-.881 2.367-.151 1.637 1.045 3.286 2.09 5.011 3.185 1.41-6.987 2.818-13.899 4.266-20.974z" class="cls-1" data-name="Path 174" transform="rotate(14 -18029.189 4528.825)"/>
+        <text id="МОИ_ЗАЯВКИ" class="cls-4" data-name="МОИ ЗАЯВКИ" transform="translate(292 4585)">
+            <tspan x="0" y="0">МОИ ЗАЯВКИ</tspan>
+        </text>
+        <text id="О_сервисе" class="cls-5" data-name="О сервисе" transform="translate(375 4761)">
+            <tspan x="0" y="0">О сервисе</tspan>
+        </text>
+        <text id="Справка" class="cls-5" transform="translate(456 4761)">
+            <tspan x="0" y="0">Справка</tspan>
+        </text>
+        <text id="Контакты" class="cls-5" transform="translate(527 4761)">
+            <tspan x="0" y="0">Контакты</tspan>
+        </text>
+        <g id="Group_302" data-name="Group 302" transform="translate(55 4193)">
+            <circle id="Ellipse_20" cx="16" cy="16" r="16" class="cls-6" data-name="Ellipse 20" transform="translate(501 412)"/>
+            <g id="Group_163" data-name="Group 163" transform="translate(63 -2496)">
+                <path id="Path_101" d="M13 14H5a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h5v1H5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6.7h1V12a2 2 0 0 1-2 2z" class="cls-1" data-name="Path 101" transform="translate(445 2916)"/>
+                <path id="Union_2" d="M3 7.337l5.343-5.329H5.036v-1h5v5h-1V2.679L3.707 8.044z" class="cls-1" data-name="Union 2" transform="translate(451.964 2914.992)"/>
+            </g>
+        </g>
+        <g id="Group_304" data-name="Group 304" transform="translate(55 4259)">
+            <circle id="Ellipse_20-2" cx="16" cy="16" r="16" class="cls-3" data-name="Ellipse 20" transform="translate(501 412)"/>
+            <g id="Group_163-2" data-name="Group 163" transform="translate(63 -2496)">
+                <path id="Path_101-2" d="M13 14H5a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h5v1H5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6.7h1V12a2 2 0 0 1-2 2z" class="cls-1" data-name="Path 101" transform="translate(445 2916)"/>
+                <path id="Union_2-2" d="M3 7.337l5.343-5.329H5.036v-1h5v5h-1V2.679L3.707 8.044z" class="cls-1" data-name="Union 2" transform="translate(451.964 2914.992)"/>
+            </g>
+        </g>
+        <rect id="Rectangle_271" width="116" height="32" class="cls-7" data-name="Rectangle 271" rx="16" transform="translate(387 4497)"/>
+        <text id="ГЛАВНАЯ" class="cls-8" transform="translate(304 4519.057)">
+            <tspan x="0" y="0">ГЛАВНАЯ</tspan>
+        </text>
+        <text id="МОИ_ЗАЯВКИ-2" class="cls-8" data-name="МОИ ЗАЯВКИ" transform="translate(399 4519.057)">
+            <tspan x="0" y="0">МОИ ЗАЯВКИ</tspan>
+        </text>
+        <text id="Москва_SVO_" class="cls-9" data-name="Москва (SVO)" transform="translate(293 4627)">
+            <tspan x="0" y="0">Москва (</tspan><tspan y="0">SVO)</tspan>
+        </text>
+        <text id="Москва_SVO_2" class="cls-9" data-name="Москва (SVO)" transform="translate(293 4693)">
+            <tspan x="0" y="0">Москва (</tspan><tspan y="0">SVO)</tspan>
+        </text>
+        <text id="Уфа_UFA_" class="cls-9" data-name="Уфа (UFA)" transform="translate(437.553 4627)">
+            <tspan x="0" y="0">Уфа (</tspan><tspan y="0">UFA)</tspan>
+        </text>
+        <text id="Уфа_UFA_2" class="cls-9" data-name="Уфа (UFA)" transform="translate(437.553 4693)">
+            <tspan x="0" y="0">Уфа (</tspan><tspan y="0">UFA)</tspan>
+        </text>
+        <g id="ic_arrow_back_black_24px" transform="rotate(180 212.257 2314.5)">
+            <path id="Path_3" d="M0 0h16.048v16H0z" class="cls-10" data-name="Path 3"/>
+            <path id="Path_4" d="M10.7 4.667H2.561L6.3.94 5.349 0 0 5.333l5.349 5.333.943-.94L2.561 6H10.7z" class="cls-11" data-name="Path 4" transform="translate(2.675 2.667)"/>
+        </g>
+        <g id="ic_arrow_back_black_24px-2" data-name="ic_arrow_back_black_24px" transform="rotate(180 212.257 2347.5)">
+            <path id="Path_3-2" d="M0 0h16.048v16H0z" class="cls-10" data-name="Path 3"/>
+            <path id="Path_4-2" d="M10.7 4.667H2.561L6.3.94 5.349 0 0 5.333l5.349 5.333.943-.94L2.561 6H10.7z" class="cls-11" data-name="Path 4" transform="translate(2.675 2.667)"/>
+        </g>
+        <g id="Group_305" data-name="Group 305" transform="translate(369 4442)">
+            <path id="Line_30" d="M0 1l360-1" class="cls-12" data-name="Line 30" transform="translate(-109 211)"/>
+            <path id="Rectangle_180" d="M0 0h53v13H0z" class="cls-13" data-name="Rectangle 180" transform="translate(-77.046 199)"/>
+            <text id="В_РАБОТЕ" class="cls-14" data-name="В РАБОТЕ" transform="translate(-73.052 208)">
+                <tspan x="0" y="0">В РАБОТЕ</tspan>
+            </text>
+            <text id="_02.05.17_-_12:15_-_F0575" class="cls-4" data-name="02.05.17 - 12:15 - F0575" transform="translate(-18 209)">
+                <tspan x="0" y="0">02.05.17 - 12:15 - F0575</tspan>
+            </text>
+        </g>
+        <g id="Group_306" data-name="Group 306" transform="translate(369 4505)">
+            <path id="Line_30-2" d="M0 1l360-1" class="cls-12" data-name="Line 30" transform="translate(-109 211)"/>
+            <path id="Rectangle_181" d="M0 0h57v13H0z" class="cls-15" data-name="Rectangle 181" transform="translate(-77 199)"/>
+            <text id="ЗАКРЫТО" class="cls-16" transform="translate(-73 209)">
+                <tspan x="0" y="0">ЗАКРЫТО</tspan>
+            </text>
+            <text id="_02.05.17_-_12:15_-_F0575-2" class="cls-4" data-name="02.05.17 - 12:15 - F0575" transform="translate(-14 209)">
+                <tspan x="0" y="0">02.05.17 - 12:15 - F0575</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

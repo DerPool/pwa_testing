@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.577 43">
+    <defs>
+        <style>
+            .cls-1{fill:#3886be}
+        </style>
+    </defs>
+    <g id="Time" transform="translate(.053 -.17)">
+        <path id="Path_41" d="M25.012 29.713L15 20V5.85h2.715v13l9.185 8.914z" class="cls-1" data-name="Path 41" transform="translate(5.379 2.03)"/>
+        <path id="Path_42" d="M20.129 34.016A21.745 21.745 0 0 1 4.74 27.668l1.919-1.919a19.054 19.054 0 0 0 23.915 2.42l1.5 2.263a21.6 21.6 0 0 1-11.945 3.584z" class="cls-1" data-name="Path 42" transform="translate(1.713 9.14)"/>
+        <path id="Path_43" d="M30.633 31.87l-2.264-1.5a19.05 19.05 0 0 0-2.417-23.915l1.919-1.919a21.771 21.771 0 0 1 2.762 27.334z" class="cls-1" data-name="Path 43" transform="translate(9.292 1.56)"/>
+        <path id="Path_44" d="M36.806 21.47h-2.714A19.135 19.135 0 0 0 18.747 2.83l.54-2.66a21.859 21.859 0 0 1 17.519 21.3z" class="cls-1" data-name="Path 44" transform="translate(6.718)"/>
+        <path id="Path_45" d="M21.664 43.17a21.719 21.719 0 0 1-4.342-43l.539 2.66a19 19 0 0 0 3.8 37.624z" class="cls-1" data-name="Path 45"/>
+    </g>
+</svg>
